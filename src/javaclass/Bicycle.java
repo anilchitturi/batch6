@@ -2,9 +2,9 @@ package javaclass;
 
 class Bicycle {
 
-    int cadence = 0;
-    int speed = 1;
-    int gear = 1;
+     int cadence = 0;
+     int speed = 1;
+      int gear = 1;
 
     void changeCadence(int newValue) {
          cadence = newValue;
@@ -23,8 +23,8 @@ class Bicycle {
     }
 
     void printStates() {
-         System.out.println("cadence:" +
-             cadence + " speed:" + 
-             speed + " gear:" + gear);
-    }
+        System.out.println("cadence:" +
+            cadence + " speed:" + 
+            speed + " gear:" + gear);
+   }
 }

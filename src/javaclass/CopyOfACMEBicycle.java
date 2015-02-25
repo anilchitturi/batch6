@@ -3,27 +3,27 @@ package javaclass;
 import java.util.Iterator;
 
 //interface
-public class ACMEBicycle implements IBicycle{
+public class CopyOfACMEBicycle implements IBicycle{
 	
 	int cadence = 0;
     int speed = 0;
     int gear = 1;
 
     public void changeCadence(int newValue) {
-         cadence = newValue;
+         cadence = 3;
     }
 
     public void changeGear(int newValue) {
-         gear = newValue;
+         gear = 2;
          
             }
 
     public void speedUp(int increment) {
-         speed = speed + increment;   
+         speed = speed + 2;   
     }
 
     public void applyBrakes(int decrement) {
-         speed = speed - decrement;
+         speed = speed - 1;
     }
     
     public void applyBrakesyu(int decrement) {
@@ -31,7 +31,7 @@ public class ACMEBicycle implements IBicycle{
    }
 
 
-	public ACMEBicycle() {
+	public CopyOfACMEBicycle() {
 		// TODO Auto-generated constructor stub
 	}
 	
